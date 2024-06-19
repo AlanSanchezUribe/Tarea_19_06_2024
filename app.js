@@ -8,5 +8,7 @@ form.addEventListener("submit", (event) => {
     const pais = document.getElementById("pais").value;
     const message = document.getElementById("message").value;
     console.log(name, email, password, pais, message);
-    alert( `Formulario enviado con los siguientes datos nombre: ${name}, email: ${email}, password: ${password}, pais: ${pais}, message: ${message}`);
+    alert(
+      `Formulario enviado con los siguientes datos:\nNombre: ${name}\nEmail: ${email}\nPassword: ${password}\nPais: ${pais}\nComentario: ${message}`
+    );
 })
